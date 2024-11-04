@@ -22,7 +22,9 @@ class UpdateRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'image' => 'required',
+            'title' => 'required',
+            'content' => 'required',
         ];
     }
 }

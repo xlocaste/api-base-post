@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "589cc0f65c3aaa7d4e9024d545bc1974",
+    "content-hash": "c2ff9f4a7d9de518b42c8fbc6b1cf0aa",
     "packages": [
         {
             "name": "brick/math",
@@ -1928,20 +1928,20 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.8.0",
+            "version": "3.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "bbd3eef89af8ba66a3aa7952b5439168fbcc529f"
+                "reference": "10ac0aa86b8062219ce21e8189123d611ca3ecd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bbd3eef89af8ba66a3aa7952b5439168fbcc529f",
-                "reference": "bbd3eef89af8ba66a3aa7952b5439168fbcc529f",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/10ac0aa86b8062219ce21e8189123d611ca3ecd9",
+                "reference": "10ac0aa86b8062219ce21e8189123d611ca3ecd9",
                 "shasum": ""
             },
             "require": {
-                "carbonphp/carbon-doctrine-types": "*",
+                "carbonphp/carbon-doctrine-types": "<100.0",
                 "ext-json": "*",
                 "php": "^8.1",
                 "psr/clock": "^1.0",
@@ -2030,7 +2030,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-19T06:22:39+00:00"
+            "time": "2024-11-03T16:02:24+00:00"
         },
         {
             "name": "nette/schema",
@@ -5797,6 +5797,63 @@
                 "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.0.1"
             },
             "time": "2020-07-09T08:09:16+00:00"
+        },
+        {
+            "name": "ladumor/laravel-pwa",
+            "version": "v0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shailesh-ladumor/laravel-pwa.git",
+                "reference": "1867899d6916803aef7ea02f489597555cc4ab02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shailesh-ladumor/laravel-pwa/zipball/1867899d6916803aef7ea02f489597555cc4ab02",
+                "reference": "1867899d6916803aef7ea02f489597555cc4ab02",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": ">=5.4",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "\\Ladumor\\LaravelPwa\\PWAServiceProvider"
+                    ],
+                    "aliases": {
+                        "LaravelPwa": "Ladumor\\LaravelPwa\\LaravelPwa"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ladumor\\LaravelPwa\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shailesh Ladumor",
+                    "email": "shaileshmladumor@gmail.com"
+                }
+            ],
+            "description": "this package used for the make pwa website.",
+            "keywords": [
+                "laravel",
+                "laravel-pwa",
+                "php",
+                "pwa-laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/shailesh-ladumor/laravel-pwa/issues",
+                "source": "https://github.com/shailesh-ladumor/laravel-pwa/tree/v0.0.4"
+            },
+            "time": "2023-09-02T13:09:30+00:00"
         },
         {
             "name": "laravel/pail",
