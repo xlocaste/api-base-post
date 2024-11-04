@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\Post\StoreRequest;
 use App\Http\Resources\PostResource;
 use App\Models\Post;
-use Illuminate\View\View;
 
 class PostController extends Controller
 {
@@ -14,11 +13,6 @@ class PostController extends Controller
         $posts = Post::all();
 
         return PostResource::collection($posts);
-    }
-
-    public function create(): View
-    {
-        return view('posts.create');
     }
 
     public function store(StoreRequest $request)
